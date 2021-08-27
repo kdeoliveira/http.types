@@ -1,0 +1,29 @@
+{
+  "name": "kdeoliveira.types",
+  "version": "1.0.0",
+  "main": "dist/index",
+  "types": "dist/index",
+  "exports": {
+    ".": ["./dist/index.js"]
+  },
+  "scripts": {
+    "build": "rm- rf ./dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "files": [
+    "dist/**/*",
+    "*.d.ts"
+  ],
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "@types/node-fetch": "^2.5.12"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "util.promisify": "^1.1.1"
+  }
+}
